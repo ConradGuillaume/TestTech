@@ -1,46 +1,21 @@
-svg {
-  display: flex;
-  flex-direction: column;
-  //height: 500px;
-  width: 100%;
-  // background: rgb(0, 0, 0);
-}
-.st0 {
-  fill: #0c0f0a00;
-}
+$color-1: #ffffff;
+$color-LG: #373737;
+$color-BTN: #00000029;
+$color-BDR: #242424;
 
-.st1 {
-  fill: #d3d2db;
-}
 
-.st2 {
-  fill: #fefefe;
+@font-face {
+  font-family: "font-1";
+  src: url(../style/font/Roboto-Light.ttf);
 }
-
-.st3 {
-  fill: #f17338;
+@font-face {
+  font-family: "font-2";
+  src: url(../style/font/Roboto-Regular.ttf);
 }
-
-.st4 {
-  fill: #ffffff;
+@font-face {
+  font-family: "font-3";
+  src: url(../style/font/Roboto-Bold.ttf);
 }
-
-.st5 {
-  fill: #494b47;
-}
-.hi {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  background: black;
-
-  .hello {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url(../FBNH5501.jpg) center/cover;
-  }
-}
-.ho {
-  width: 100%;
-}
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", serif;
+$font-3: "font-3", serif;
