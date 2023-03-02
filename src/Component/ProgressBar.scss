@@ -4,7 +4,7 @@
   cursor: pointer;
   .bar-title {
     color: $color-1;
-    font: normal normal normal 14px/19px $font-2;
+    font: 14px/19px $font-2;
     margin-bottom: 0;
   }
   .bar-progress {
@@ -15,7 +15,7 @@
     .bar-lvl {
       width: 70px;
       color: $color-1;
-      font: normal normal 300 20px/26px $font-1;
+      font: 300 20px/26px $font-1;
     }
     .bar {
       display: flex;
